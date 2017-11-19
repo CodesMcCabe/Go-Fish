@@ -1,0 +1,36 @@
+DECK
+- creates 52 card deck —> DONE 
+- allows player to take from deck —> DONE
+- updates deck upon take —> DONE
+- knows when its empty —> DONE
+
+PLAYER
+- gives name
+
+- given hand upon instantiation 
+
+- can ask another player for a card
+
+- can go fish into deck
+
+- have to respond to another player, if prompted for card
+
+- collection of points
+
+- player gets to go again if gets card he wants from either deck or player
+
+HAND
+- creates hand of cards from deck —> DONE
+
+- checks for favorite card currently in hand(AI only)
+
+- updates when card is drawn from deck or taken from other_player
+
+- knows how many cards currently in hand —> DONE
+
+- if empty? then get 5 more cards - IN PROGRESS
+-> will have to write in logic for if empty? call refill_hand
+
+CARD
+- instantiates a new card
+- holds values/suits for each card
